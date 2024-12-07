@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dark Random Word Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="card">
+      <button
+        class="theme-button"
+        aria-label="Change Theme"
+        onclick="changeTheme()"
+      >
+        <img
+          src="https://cdn.iconscout.com/icon/premium/png-512-thumb/theme-5126041-4275340.png?f=webp&w=256"
+          alt="Theme Icon"
+        />
+      </button>
+      <h2 id="english-word">Word</h2>
+      <h3 id="arabic-meaning">معنى</h3>
+      <button onclick="getRandomWord()" aria-label="Get New Word">
+        Get New Word
+      </button>
+      <span
+        class="audio-btn"
+        onclick="playAudio()"
+        aria-label="Play Pronunciation"
+      >
+        <img
+          src="https://cdn.iconscout.com/icon/premium/png-512-thumb/sound-4465040-3703068.png?f=webp&w=256"
+          alt="Sound Icon"
+        />
+      </span>
+    </div>
+
+    <!-- Developer Information -->
+    <div class="developer-info">Powered by <strong>❤️</strong><br /></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+Hello|مرحبا
+Goodbye|وداعا
+Please|رجاء
+Thank you|شكرا
+Yes|نعم
+No|لا
+Welcome|أهلا وسهلا
+Friendship|صداقة
+Knowledge|معرفة
+Happiness|سعادة
+Success|نجاح
+Peace|سلام
+Strength|قوة
+Dream|حلم
+Adventure|مغامرة
+Hope|أمل
+Freedom|حرية
+Wisdom|حكمة
+Courage|شجاعة
+Love|حب
+Family|عائلة
+Victory|نصر
+Kindness|لطف
+Gratitude|امتنان
+Patience|صبر
+Unity|وحدة

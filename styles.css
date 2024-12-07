@@ -1,0 +1,125 @@
+:root {
+  --bg-color: #121212;
+  --card-bg: #1e1e1e;
+  --primary-color: #bb86fc;
+  --text-color: #ffffff;
+  --subtitle-color: #b3b3b3;
+  --button-hover: #3700b3;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-color);
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+  transition: background-color 0.3s ease;
+}
+
+.card {
+  position: relative;
+  background-color: var(--card-bg);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card h2,
+.card h3 {
+  margin: 0;
+}
+
+.card h2 {
+  font-size: 28px;
+  color: var(--primary-color);
+}
+
+.card h3 {
+  margin: 10px 0;
+  font-size: 24px;
+  color: var(--text-color);
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  border: none;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--button-hover);
+}
+
+.audio-btn {
+  cursor: pointer;
+  margin-left: 15px;
+  vertical-align: middle;
+  transition: opacity 0.3s ease;
+}
+
+.audio-btn img {
+  width: 30px;
+  height: 30px;
+}
+
+.audio-btn:hover {
+  opacity: 0.7;
+}
+
+.developer-info {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 16px;
+  color: var(--subtitle-color);
+}
+
+.developer-info a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.developer-info a:hover {
+  text-decoration: underline;
+}
+
+.theme-button {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  background-color: var(--card-bg);
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.theme-button img {
+  width: 24px;
+  height: 24px;
+}
+
+.theme-button:hover {
+  background-color: var(--button-hover);
+}
